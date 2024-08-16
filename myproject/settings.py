@@ -23,9 +23,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-joib=yh)l@$fjb4d+1ep-rs##aeo@wvy8wu$w^xd1wr5+e!y@3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-# ALLOWED_HOSTS = []
 ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
@@ -85,12 +84,12 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',  # Change to MySQL backend
-        'NAME': 'graphdb',          # Name of your MySQL database
-        'USER': 'root',         # Your MySQL username
-        'PASSWORD': 'damii666',     # Your MySQL password
-        'HOST': 'localhost',                   # Or the address of your MySQL server
-        'PORT': '3306',                        # Default MySQL port
+        'ENGINE': 'django.db.backends.mysql', 
+        'NAME': 'puzzpmbo_graph',        
+        'USER': 'puzzpmbo_db_graph',        
+        'PASSWORD': '*-E(r{3H?-ij',   
+        'HOST': 'localhost',                  
+        'PORT': '3306',                       
     }
 }
 
